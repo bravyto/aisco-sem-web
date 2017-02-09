@@ -1,0 +1,727 @@
+/* Styling for default blog template.
+   ----------------------------------------------------------
+
+@package:	Atatonic CSS framework 2009	
+@Author: 	Tim Benniks <tim@timbenniks.nl>
+@Created: 	10-12-2009
+@Changed:	19-03-2010
+
+Copyright 2010 Tim Benniks <tim@timbenniks.nl>
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+---------------------------------------------------------- */
+
+body {
+    background-repeat: repeat;
+    background-position: top left;
+    background-attachment: scroll;
+    border-top: 6px solid #dd3333;
+    color: #333;
+    padding-top: 0px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+aside, header, footer, figure, article {
+    display: block !important;
+}
+
+div.navbar-inner {
+    background: #154868; /* Old browsers */
+    background: -moz-linear-gradient(top, #154868 26%, #333333 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(26%,#154868), color-stop(100%,#333333)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #154868 26%,#333333 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #154868 26%,#333333 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #154868 26%,#333333 100%); /* IE10+ */
+    background: linear-gradient(top, #154868 26%,#333333 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#154868', endColorstr='#333333',GradientType=0 ); /* IE6-9 */
+}
+
+div.navbar .brand,
+div.navbar .nav li a {
+    color: #fff;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+/* Typography
+   ---------------------------------------------------------- */
+
+h1 {
+    color: #163a51;
+    font-size: 18px;
+    margin: 0 0 12px 0;
+    font-style: normal;
+}
+
+.big h1 {
+    font-size: 32px;
+}
+
+header h1 {
+    color: #fff;
+    margin: 11px 0 0 0;
+    font-size: 27px;
+}
+
+header h1 a,
+header h1 a:focus {
+    color: #fff;
+    border: none;
+}
+
+header h1 a:hover {
+    color: #eee;
+}
+
+header h1 span {
+    font-style: italic;
+    font-size: .6em;
+}
+
+h2 {
+    color: #163a51;
+    margin: 0 0 12px 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+}
+
+#sidebar h2 {
+    color: #333;
+    margin: 0;
+}
+
+h3 {
+    font-size: 12px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: bold;
+    color: #333;
+}
+
+h5.chapeau {
+    font-variant: small-caps;
+    color: #333;
+    border-bottom: 1px dotted #333;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 24px;
+    margin: 0 0 24px 0;
+}
+
+
+a, a:focus {
+    color: #154868;
+}
+
+a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+p {
+    margin: 0 0 18px 0;
+}
+
+p.summary {
+    font-style: italic;
+}
+
+p.important {
+    padding: 18px 0 0 0;
+}
+
+p.keywords {
+    font-size: 12px;
+}
+
+.author {
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+}
+
+p img, li img {
+    margin: 6px 6px 0 0;
+}
+
+p img.left, li img.left {
+    float: left;
+}
+
+p img.right, li img.right {
+    margin: 6px 0 0 9px;
+    float: right;
+}
+
+p img.block {
+    display: block;
+    float: none;
+    margin: 0 0 18px 0;
+}
+
+
+/* Grid
+   ---------------------------------------------------------- */
+
+.zp-wrapper {
+    width: 900px;
+}
+
+header {
+    height: 48px;
+}
+
+#content .padding {
+    padding: 0 90px 0 0;
+}
+
+
+/* Footer - see footer navigation styles in the zp-menu.css
+   ------------------------------------------------------ */
+
+#footer {
+    margin: 20px 0;
+    border-top: 1px dotted #333;
+    padding: 9px 0 9px 0;
+}
+
+#footer p.footer-blog-title {
+    margin: 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #666;
+}
+
+
+/* Lists
+   ---------------------------------------------------------- */
+
+#content ul,
+#content ol {
+    margin: 0 0 18px 0;
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
+#content ol {
+    list-style-type: decimal;
+}
+
+#content .comments-list {
+    list-style: none;
+}
+
+.item-list p {
+    font-size: 12px;
+    margin: 0;
+}
+
+
+
+
+.pager li {
+    display: inline;
+}
+
+.pager li.disabled {
+    display: none;
+}
+
+.images-list {
+    margin: 0 0 18px 0;
+    list-style: none;
+}
+
+.images-list li {
+    margin: 0 0 18px 0;
+}
+
+.images-list li:last-child {
+    margin: 0;
+}
+
+.images-list li img {
+    float: none;
+    display: block;
+    margin: 0;
+}
+
+.shouts-list {
+    font-size: 12px;
+    line-height: 18px;
+    list-style: none;
+}
+
+.shouts-list .tweet-date-time {
+    font-style: italic;
+    color: #888;
+}
+
+
+/* Posts
+   ---------------------------------------------------------- */	
+
+.post {
+    margin: 0 0 36px 0;
+}
+
+.post h1 {
+    margin: 0;
+}
+
+.post h1 a {
+    border: none;
+}
+
+.post p:last-child {
+    margin: 0;
+}
+
+.post .article-meta {
+    font-size: 12px;
+    font-style: italic;
+    margin: 0;
+    color: #666;	
+}
+
+.post img {
+    margin: 6px 12px 0 0;
+    display: block;
+    float: left;
+}
+
+.prevnext {
+    margin: 36px 0 0 0;
+    overflow: hidden; /* clearfix hack */
+}
+
+.prevnext a {
+    font-size: 12px;
+    color: #333;
+}
+
+.prevnext a:hover {
+    color: #154868;
+}
+
+.prevnext .prev {
+    float: left;
+}
+
+.prevnext .next {
+    float: right;
+}
+
+
+/* Nav
+   ---------------------------------------------------------- */
+
+#navigation li a, .navbar a.brand {
+    text-shadow: none;
+}
+
+.navbar .nav>li>a:hover {
+    color: #ddd;
+}
+
+/* Images
+   ---------------------------------------------------------- */
+
+figure.image-wrapper {
+    margin: 0;
+}
+
+.block-level-image img {
+    display: block;
+}
+
+p.image-caption {
+    display: block;
+    padding-top: 6px;
+    font: 12px/18px arial, helvetica, sans-serif;
+    margin: 0;
+    color: #666;
+}
+
+
+/* Misc
+   ---------------------------------------------------------- */
+
+.comments-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.comments-list li {
+    border-bottom: 1px dotted #aaa;
+    margin: 0 0 18px 0;
+    padding: 0 0 17px 0;
+}
+
+.comments-list li p {
+    margin: 0;
+}
+
+.comments-list li h3 {
+    font-weight: normal;
+    font-style: italic;
+    color: #555;
+    font-size: 16px;
+    line-height: 10px;
+    padding-top: 6px;
+}
+
+.comments-list li img.avatar {
+    float: left;
+    margin: 0 6px 0 0;
+}
+
+.comments-list li .comment-meta {
+    font-size: 12px;
+    color: #666;
+    line-height: 18px;
+}
+
+.comments-list li .comment-body {
+    margin-top: 9px;
+}
+
+textarea.form-field-error,
+input.form-field-error {
+    background: #ffeeee;
+}
+label.form-field-error {
+    color: #cc0000;
+}
+
+.wrapper {
+    width: 95%;
+    max-width: 1018px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.navbar {
+    top: auto;
+    position: relative;
+}
+
+.list-inline {
+    padding-bottom:35px;
+    padding-top:53px;
+    margin: 0;
+    float: right;
+}
+
+.list-inline > li {
+    padding:0;
+    padding-right:1px;
+    width: 27px;
+    height: 23px;
+}
+
+.list-inline > li > .z-btn-social {
+    color: #b7b7b7;
+    transition: all 0.3s ease-out;
+    border-radius: 2px;
+    width:100%;
+    height:100%;
+    text-align: center;
+    vertical-align: center;
+    padding-top: 1px;
+}
+
+.z-icon {
+    color: #b7b7b7;
+    padding: 0;
+    font-size: 21px; 
+}
+
+.facebook > .z-btn-social:hover {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.twitter > .z-btn-social:hover {
+    background-color: #4099ff;
+    color: #fff;
+}
+
+.google-plus > .z-btn-social:hover {
+    background-color: #d34836;
+    color: #fff;
+}
+
+.youtube > .fa-youtube-play {
+    font-size: 18px;
+}
+
+.youtube > .z-btn-social:hover {
+    background-color: #e52d27;
+    color: #fff;
+}
+
+.instagram > .z-btn-social {
+    padding-left: 3px;
+}
+
+.instagram > .z-btn-social:hover {
+    background-color: #125688;
+    color: #fff;
+}
+
+.container {
+    max-width: 978px;
+}
+
+header {
+    height: auto;
+    margin-top: 15px;
+}
+
+.navbar {
+    max-height: 40px;
+    min-height: 40px;
+    margin-bottom: 0px;
+}
+
+.navbar-nav > li > a {
+    padding-top : 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-fixed-top  {
+    background: #dd3333;
+    border-color: #dd3333;
+}
+
+#navigation > .active > a {
+    background: #dd3333;
+    border-color: #dd3333;
+}
+
+#navigation > li > a:hover {
+    background: #439f55;
+    box-shadow: inset 0 0 4px rgba(0,0,0,0.2);
+    color: #fff;
+}
+
+.home-navbar {
+    margin-bottom: 0px;
+}
+
+#hero-wrapper {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#hero-wrapper .carousel-wrapper,
+#hero-carousel {
+  height: 100%;
+  width: 100%;
+}
+
+#hero-carousel{
+  img {
+    left: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: none;
+    width: auto;
+    height: auto;
+  }
+  & i {
+    position: absolute;
+    top: 50%;
+  }
+}
+
+.carousel-fade {
+  .carousel-inner {
+    .item {
+      opacity: 0;
+      transition-property: opacity;
+    }
+
+    .active {
+      opacity: 1;
+    }
+
+    .active.left,
+    .active.right {
+      left: 0;
+      opacity: 0;
+      z-index: 1;
+    }
+
+    .next.left,
+    .prev.right {
+      opacity: 1;
+    }
+  }
+
+  .carousel-control {
+    z-index: 2;
+  }
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
+    background: #439f55;  
+}
+
+div.navbar .nav li ul li a {
+    color: #777;
+    border-bottom: 1px solid #EAEAEA;
+}
+
+div.navbar .nav li ul li a:hover {
+    color: #57AD68;
+    background-color: #fafafa;
+}
+
+div.navbar .nav li ul li .active {
+    background-color: #f5f5f5;
+    box-shadow: inset 0 2px 2px rgba(0,0,0,.25);
+    background-image: linear-gradient(to bottom,#f5f5f5 0,#f5f5f5 100%);
+}
+
+.dropdown-menu {
+    padding: 0px;
+    border-bottom: 4px solid #dd3333;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: block;
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    opacity: 0;
+    transition: all 0.3s ease-out;
+}
+
+.back-to-top > #backToTopBtn {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+.back-to-top > a {
+    color: #d5d5d5;
+    outline:0;
+}
+
+.back-to-top > a:hover {
+    color: #b5b5b5;
+    outline:0;
+}
+
+.back-to-top > a:focus {
+    color: #57AD68;
+    outline:0;
+}
+
+.header-img {
+    width: 100%;
+    height: auto;
+}
+
+.item {
+    height: 0px;
+    padding-bottom: 45%;
+}
+
+.item > img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-detail {
+    bottom: 15%;
+    right: 3%;
+    position: absolute;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    width: 35%;
+    border-radius: 4px;
+    padding: 2%;
+}
+
+.carousel-detail > p, .carousel-detail > h1 {
+    margin: 0;
+}
+
+.carousel-detail > h1 {
+    margin-bottom: 5px;
+}
+
+.carousel-indicators {
+    bottom: 5px;
+}
+
+.post-content {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    margin: 0px;
+}
+
+.article-hr {
+    border: 0; 
+    border-bottom: 2px dashed #ccc; }
+
+.post-info {
+    background-color: #f9f9f9;
+    padding: 10px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+.post-info .row {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.meta {
+    font-size: 11px;
+    padding: 0;
+}
+
+.post {
+    margin: 0;
+}
+
+.btn-read-more {
+    float: right;
+    font-size: 12px;
+}
+
+.meta-data {
+    top: 5px;
+}
+

@@ -1,0 +1,12 @@
+-module(filter_counttotal).
+-export([counttotal/1]).
+-include("zotonic.hrl").
+
+counttotal([]) -> 0;
+counttotal(NUMS) ->
+        counttotal(NUMS, 0).
+
+counttotal([H|L], Count) ->
+        counttotal(L, Count + H);
+counttotal([], Count) ->
+        Count.

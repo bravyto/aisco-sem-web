@@ -1,0 +1,3 @@
+127.0.0.1 - - [31/Oct/2016:02:59:45 +0700] "GET /en/admin/overview HTTP/1.1" 200 48441 "http://testbsmi.dev:8000/en/admin/edit/333" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0" 1036619866
+127.0.0.1 - - [31/Oct/2016:02:59:45 +0700] "POST /beacon HTTP/1.1" 204 0 "http://testbsmi.dev:8000/en/admin/edit/333" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0" 1041154828
+127.0.0.1 - - [31/Oct/2016:02:59:45 +0700] "GET /websocket HTTP/1.1" 101 0 "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0" 622004262

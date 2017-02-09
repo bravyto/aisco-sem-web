@@ -1,0 +1,385 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# NB: Consider using poEdit <http://poedit.sourceforge.net>
+#
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ./modules/mod_translation/templates/admin_translation_status.tpl:26 
+msgid ""
+"Active modules"
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation.tpl:14 ./modules/mod_translation/templates/admin_translation.tpl:15 
+msgid ""
+"Add language"
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation.tpl:9 
+msgid ""
+"All languages known to the system. You can add or remove languages."
+msgstr ""
+
+#: ./modules/mod_translation/templates/_dialog_language_delete.tpl:1 
+msgid ""
+"Are you sure you want to delete the language"
+msgstr ""
+
+#: ./modules/mod_translation/templates/_dialog_language_copy.tpl:14 ./modules/mod_translation/templates/_dialog_language_edit.tpl:63 ./modules/mod_translation/templates/_dialog_language_delete.tpl:6 
+msgid ""
+"Cancel"
+msgstr ""
+
+#: ./modules/mod_translation/templates/_dialog_language_copy.tpl:15 
+msgid ""
+"Copy"
+msgstr ""
+
+#: ./modules/mod_translation/templates/_dialog_language_copy.tpl:1 
+msgid ""
+"Copy texts from a language to the currently selected language."
+msgstr ""
+
+#: ./modules/mod_translation/templates/_admin_edit_sidebar.tpl:19 ./modules/mod_translation/templates/_admin_edit_sidebar.tpl:22 
+msgid ""
+"Copy translation"
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation.tpl:128 
+msgid ""
+"Danish"
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation.tpl:24 
+msgid ""
+"Default"
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation.tpl:53 
+msgid ""
+"Delete"
+msgstr ""
+
+#: ./modules/mod_translation/templates/_dialog_language_delete.tpl:7 ./modules/mod_translation/templates/admin_translation.tpl:55 
+msgid ""
+"Delete language"
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation.tpl:130 
+msgid ""
+"Dutch"
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation.tpl:60 
+msgid ""
+"Edit"
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation.tpl:62 ./modules/mod_translation/templates/admin_translation.tpl:67 ./modules/mod_translation/templates/admin_translation.tpl:68 
+msgid ""
+"Edit language"
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation.tpl:23 
+msgid ""
+"Enabled"
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation.tpl:10 
+msgid ""
+"Enabled languages show up in the language selection menu. The default "
+"language is used for new visitors without a selected language."
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation.tpl:129 
+msgid ""
+"English"
+msgstr ""
+
+#: ./modules/mod_translation/templates/_dialog_language_edit.tpl:7 
+msgid ""
+"Enter the iso code (for example <em>en</em> or <em>nl</em>), and the title "
+"of the language. Use the native form of the language, for example "
+"<em>English</em>, <em>Türkçe</em> or <em>Français</em>."
+msgstr ""
+
+#: ./modules/mod_translation/templates/_dialog_language_edit.tpl:34 ./modules/mod_translation/templates/admin_translation.tpl:27 
+msgid ""
+"Fallback language"
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation.tpl:131 
+msgid ""
+"Finnish"
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation.tpl:132 
+msgid ""
+"French"
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation.tpl:169 
+msgid ""
+"Generate .pot files"
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation.tpl:133 
+msgid ""
+"German"
+msgstr ""
+
+#: ./modules/mod_translation/templates/_admin_edit_sidebar.tpl:8 
+msgid ""
+"Help about translations"
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation.tpl:134 
+msgid ""
+"Hungarian"
+msgstr ""
+
+#: ./modules/mod_translation/templates/_dialog_language_edit.tpl:12 ./modules/mod_translation/templates/admin_translation.tpl:26 
+msgid ""
+"ISO Code"
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation.tpl:149 
+msgid ""
+"If you change the stemmer language then you will need to reindex all data."
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation.tpl:135 
+msgid ""
+"Italian"
+msgstr ""
+
+#: ./modules/mod_translation/templates/_dialog_language_edit.tpl:25 ./modules/mod_translation/templates/admin_translation.tpl:25 ./modules/mod_translation/templates/text/_language_switch.tpl:1 
+msgid ""
+"Language"
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation.tpl:119 
+msgid ""
+"Language used for stemming of the search indices"
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation.tpl:7 ./modules/mod_translation/templates/admin_translation_status.tpl:16 
+msgid ""
+"Languages overview"
+msgstr ""
+
+#: ./modules/mod_translation/templates/_dialog_language_copy.tpl:9 
+msgid ""
+"More than one language must be active."
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation.tpl:73 
+msgid ""
+"No languages configured."
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation.tpl:136 
+msgid ""
+"Norwegian"
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation.tpl:98 
+msgid ""
+"Put the current language in the URL"
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation.tpl:153 
+msgid ""
+"Rebuild search indices"
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation.tpl:176 
+msgid ""
+"Reload Translations"
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation.tpl:178 
+msgid ""
+"Reload all translations from the modules and site. All templates will be "
+"recompiled."
+msgstr ""
+
+#: ./modules/mod_translation/mod_translation.erl:273 
+msgid ""
+"Reloading all .po files in the background."
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation.tpl:137 
+msgid ""
+"Romanian"
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation.tpl:138 
+msgid ""
+"Russian"
+msgstr ""
+
+#: ./modules/mod_translation/templates/_dialog_language_edit.tpl:64 
+msgid ""
+"Save"
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation.tpl:171 
+msgid ""
+"Scan all templates for translation tags and generate .pot files that can "
+"be used for translating the templates."
+msgstr ""
+
+#: ./modules/mod_translation/templates/text/language_switch.tpl:3 
+msgid ""
+"Select language"
+msgstr ""
+
+#: ./modules/mod_translation/templates/_dialog_language_copy.tpl:5 
+msgid ""
+"Select the language to copy from:"
+msgstr ""
+
+#: ./modules/mod_translation/templates/text/language_switch.tpl:7 
+msgid ""
+"Select your preferred language."
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation.tpl:110 
+msgid ""
+"Set initial language to the default language."
+msgstr ""
+
+#: ./modules/mod_translation/templates/_dialog_language_edit.tpl:53 
+msgid ""
+"Show in menu"
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation.tpl:184 
+msgid ""
+"Show per module how much of the templates are translated."
+msgstr ""
+
+#: ./modules/mod_translation/mod_translation.erl:287 ./modules/mod_translation/mod_translation.erl:298 ./modules/mod_translation/mod_translation.erl:308 
+msgid ""
+"Sorry, you don't have permission to change the language list."
+msgstr ""
+
+#: ./modules/mod_translation/mod_translation.erl:275 
+msgid ""
+"Sorry, you don't have permission to reload translations."
+msgstr ""
+
+#: ./modules/mod_translation/mod_translation.erl:267 
+msgid ""
+"Sorry, you don't have permission to scan for translations."
+msgstr ""
+
+#: ./modules/mod_translation/mod_translation.erl:257 
+msgid ""
+"Sorry, you don't have permission to set the default language."
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation.tpl:139 
+msgid ""
+"Spanish"
+msgstr ""
+
+#: ./modules/mod_translation/mod_translation.erl:265 
+msgid ""
+"Started building the .pot files. This may take a while..."
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation.tpl:140 
+msgid ""
+"Swedish"
+msgstr ""
+
+#: ./modules/mod_translation/templates/text/_language_switch.tpl:1 
+msgid ""
+"Switch language"
+msgstr ""
+
+#: ./modules/mod_translation/templates/_admin_edit_sidebar.tpl:8 
+msgid ""
+"The title, body and other texts can be translated in different languages. "
+"Here you can select which languages will be used."
+msgstr ""
+
+#: ./modules/mod_translation/templates/_dialog_language_delete.tpl:3 
+msgid ""
+"This will not affect any translations in the database or .po files. This "
+"only removes the reference to the language, making it impossible to select "
+"or edit content written in the delete language."
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation_status.tpl:32 
+msgid ""
+"Title"
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation_status.tpl:22 
+msgid ""
+"To view the up-to-date version of this module, please run \"generate .pot "
+"files\" first from the translation overview."
+msgstr ""
+
+#: ./modules/mod_translation/templates/_admin_edit_sidebar.tpl:8 
+msgid ""
+"Translate this page in other languages."
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation.tpl:3 ./modules/mod_translation/mod_translation.erl:526 
+msgid ""
+"Translation"
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation.tpl:84 
+msgid ""
+"Translation configuration and tools"
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation.tpl:183 ./modules/mod_translation/templates/admin_translation_status.tpl:3 ./modules/mod_translation/templates/admin_translation_status.tpl:17 
+msgid ""
+"Translation status"
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation_status.tpl:21 
+msgid ""
+"Translation status per module"
+msgstr ""
+
+#: ./modules/mod_translation/templates/_admin_edit_sidebar.tpl:6 
+msgid ""
+"Translations"
+msgstr ""
+
+#: ./modules/mod_translation/templates/admin_translation.tpl:141 
+msgid ""
+"Turkish"
+msgstr ""
+
+#: ./modules/mod_translation/templates/_dialog_language_edit.tpl:48 
+msgid ""
+"Use this with region-specific languages, for instance 'fr-be'. The fallback "
+"language is used to find missing translations in the 'parent' language "
+"instead of substituting with English."
+msgstr ""
+
+#: ./modules/mod_translation/templates/_dialog_language_edit.tpl:37 
+msgid ""
+"none"
+msgstr ""

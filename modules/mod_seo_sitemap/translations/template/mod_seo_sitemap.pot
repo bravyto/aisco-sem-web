@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# NB: Consider using poEdit <http://poedit.sourceforge.net>
+#
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ./modules/mod_seo_sitemap/templates/_admin_edit_content_seo_extra.category.tpl:34 
+msgid ""
+"Always"
+msgstr ""
+
+#: ./modules/mod_seo_sitemap/templates/_admin_edit_content_seo_extra.category.tpl:30 
+msgid ""
+"Change frequency for sitemap"
+msgstr ""
+
+#: ./modules/mod_seo_sitemap/templates/_admin_edit_content_seo_extra.category.tpl:36 
+msgid ""
+"Daily"
+msgstr ""
+
+#: ./modules/mod_seo_sitemap/templates/_admin_edit_content_seo_extra.category.tpl:35 
+msgid ""
+"Hourly"
+msgstr ""
+
+#: ./modules/mod_seo_sitemap/templates/_admin_edit_content_seo_extra.category.tpl:38 
+msgid ""
+"Monthly"
+msgstr ""
+
+#: ./modules/mod_seo_sitemap/templates/_admin_edit_content_seo_extra.category.tpl:40 
+msgid ""
+"Never"
+msgstr ""
+
+#: ./modules/mod_seo_sitemap/templates/_admin_edit_content_seo_extra.category.tpl:9 
+msgid ""
+"Priority in sitemap"
+msgstr ""
+
+#: ./modules/mod_seo_sitemap/templates/_admin_edit_content_seo_extra.category.tpl:2 
+msgid ""
+"Sitemap settings"
+msgstr ""
+
+#: ./modules/mod_seo_sitemap/templates/_admin_edit_content_seo_extra.category.tpl:4 
+msgid ""
+"These settings apply to all pages of this category. They define hints for "
+"search engines indexing the site."
+msgstr ""
+
+#: ./modules/mod_seo_sitemap/templates/_admin_edit_content_seo_extra.category.tpl:37 
+msgid ""
+"Weekly (default)"
+msgstr ""
+
+#: ./modules/mod_seo_sitemap/templates/_admin_edit_content_seo_extra.category.tpl:39 
+msgid ""
+"Yearly"
+msgstr ""
+
+#: ./modules/mod_seo_sitemap/templates/_admin_edit_content_seo_extra.category.tpl:18 
+msgid ""
+"default"
+msgstr ""

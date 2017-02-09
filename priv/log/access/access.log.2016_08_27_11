@@ -1,0 +1,10 @@
+127.0.0.1 - - [27/Aug/2016:18:54:14 +0700] "GET /id/admin/translation HTTP/1.1" 302 0 "http://bsmi.dev:8000/en/admin/translation" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0" 31921815
+127.0.0.1 - - [27/Aug/2016:18:54:15 +0700] "GET /id/admin/logon?p=%2Fid%2Fadmin%2Ftranslation HTTP/1.1" 200 10290 "http://bsmi.dev:8000/en/admin/translation" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0" 573156224
+127.0.0.1 - - [27/Aug/2016:18:54:16 +0700] "GET /useragent/probe.js?w=1366&h=768&t=0&tz=Asia/Jakarta HTTP/1.1" 200 0 "http://bsmi.dev:8000/id/admin/logon?p=%2Fid%2Fadmin%2Ftranslation" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0" 216877186
+127.0.0.1 - - [27/Aug/2016:18:54:17 +0700] "GET /websocket HTTP/1.1" 101 0 "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0" 636389219
+127.0.0.1 - - [27/Aug/2016:18:54:19 +0700] "POST /postback HTTP/1.1" 200 458 "http://bsmi.dev:8000/id/admin/logon?p=%2Fid%2Fadmin%2Ftranslation" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0" 948194198
+127.0.0.1 - - [27/Aug/2016:18:54:20 +0700] "GET /id/admin/translation HTTP/1.1" 200 74435 "http://bsmi.dev:8000/id/admin/logon?p=%2Fid%2Fadmin%2Ftranslation" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0" 716193037
+127.0.0.1 - - [27/Aug/2016:18:54:20 +0700] "POST /beacon HTTP/1.1" 204 0 "http://bsmi.dev:8000/id/admin/logon?p=%2Fid%2Fadmin%2Ftranslation" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0" 26538740
+127.0.0.1 - - [27/Aug/2016:18:54:20 +0700] "GET /websocket HTTP/1.1" 101 0 "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0" 551310188
+127.0.0.1 - - [27/Aug/2016:18:57:05 +0700] "GET / HTTP/1.1" 200 10664 "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0" 869883255
+127.0.0.1 - - [27/Aug/2016:18:57:05 +0700] "GET /websocket HTTP/1.1" 101 0 "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0" 72448572

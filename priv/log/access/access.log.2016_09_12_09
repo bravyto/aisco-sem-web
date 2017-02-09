@@ -1,0 +1,2 @@
+127.0.0.1 - - [12/Sep/2016:16:50:18 +0700] "POST /beacon HTTP/1.1" 204 0 "http://bsmi.dev:8000/id/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0" 107798461
+127.0.0.1 - - [12/Sep/2016:16:50:19 +0700] "POST /beacon HTTP/1.1" 204 0 "http://bsmi.dev:8000/id/admin/edit/333" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0" 975802880

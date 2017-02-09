@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# NB: Consider using poEdit <http://poedit.sourceforge.net>
+#
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ./modules/mod_admin_category/templates/_action_dialog_delete_rsc.category.tpl:1 
+msgid ""
+"Are you sure you want to delete the following categories:"
+msgstr ""
+
+#: ./modules/mod_admin_category/templates/_action_dialog_delete_rsc.category.tpl:38 ./modules/mod_admin_category/templates/_action_dialog_delete_rsc.category.tpl:52 
+msgid ""
+"Cancel"
+msgstr ""
+
+#: ./modules/mod_admin_category/templates/admin_category_sorter.tpl:8 ./modules/mod_admin_category/mod_admin_category.erl:185 
+msgid ""
+"Categories"
+msgstr ""
+
+#: ./modules/mod_admin_category/templates/admin_category_sorter.tpl:10 
+msgid ""
+"Categories are used to categorize all pages. Every page belongs to exactly "
+"one category.<br/>The categories are defined in a hierarchy. Here you can "
+"change that hierarchy."
+msgstr ""
+
+#: ./modules/mod_admin_category/templates/admin_category_sorter.tpl:3 
+msgid ""
+"Category Hierarchy"
+msgstr ""
+
+#: ./modules/mod_admin_category/templates/_action_dialog_delete_rsc.category.tpl:53 
+msgid ""
+"Delete"
+msgstr ""
+
+#: ./modules/mod_admin_category/templates/_action_dialog_delete_rsc.category.tpl:39 
+msgid ""
+"Delete &amp; Move Pages"
+msgstr ""
+
+#: ./modules/mod_admin_category/templates/_action_dialog_delete_rsc.category.tpl:42 
+msgid ""
+"Delete All Pages"
+msgstr ""
+
+#: ./modules/mod_admin_category/mod_admin_category.erl:70 
+msgid ""
+"Delete is canceled, there are pages in the category."
+msgstr ""
+
+#: ./modules/mod_admin_category/mod_admin_category.erl:74 ./modules/mod_admin_category/mod_admin_category.erl:94 
+msgid ""
+"Deleting..."
+msgstr ""
+
+#: ./modules/mod_admin_category/templates/admin_category_sorter.tpl:25 
+msgid ""
+"Drag categories to the place where you want them in the hierarchy."
+msgstr ""
+
+#: ./modules/mod_admin_category/templates/admin_category_sorter.tpl:19 
+msgid ""
+"How does this work?"
+msgstr ""
+
+#: ./modules/mod_admin_category/templates/_action_dialog_delete_rsc.category.tpl:17 
+msgid ""
+"Move all pages in these categories to:"
+msgstr ""
+
+#: ./modules/mod_admin_category/mod_admin_category.erl:86 
+msgid ""
+"Not all resources could be deleted."
+msgstr ""
+
+#: ./modules/mod_admin_category/templates/_action_dialog_delete_rsc.category.tpl:33 
+msgid ""
+"Or click <strong>Delete All Pages</strong> to delete all pages in the "
+"categories."
+msgstr ""
+
+#: ./modules/mod_admin_category/mod_admin_category.erl:51 ./modules/mod_admin_category/mod_admin_category.erl:67 
+msgid ""
+"Sorry, you are not allowed to delete this."
+msgstr ""
+
+#: ./modules/mod_admin_category/templates/_action_dialog_delete_rsc.category.tpl:49 
+msgid ""
+"There are no pages in these categories."
+msgstr ""
+
+#: ./modules/mod_admin_category/templates/_action_dialog_delete_rsc.category.tpl:35 
+msgid ""
+"This can not be undone."
+msgstr ""
+
+#: ./modules/mod_admin_category/templates/admin_category_sorter.tpl:22 
+msgid ""
+"Use the <i class=\"glyphicon glyphicon-cog\"></i> button to add or remove "
+"categories."
+msgstr ""

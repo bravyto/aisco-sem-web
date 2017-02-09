@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="{{ z_language|default:"en"|escape }}">
+	<head>
+		<meta charset="utf-8" />
+		<title>{% block title %}{% endblock %} &mdash; {{ m.config.site.title.value }}</title>
+
+		<!--
+			Website built by:
+			Bravyto Takwa Pangukir
+
+			Proudly powered by: Zotonic, the Erlang CMS <http://www.zotonic.com>
+		-->
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="Bravyto Takwa Pangukir &copy; 2016" />
+
+		{% all include "_html_head.tpl" %}
+
+		{% lib
+			"bootstrap/css/bootstrap.min.css"
+			"bootstrap/css/bootstrap-theme.min.css"
+			"css/jquery.loadmask.css"
+			"css/z-menu.css"
+			"css/project.css"
+			"css/z.icons.css"
+                        "font-awesome-4/css/font-awesome.min.css"
+		%}
+
+		{% block html_head_extra %}{% endblock %}
+	</head>
+	<body class="{% block page_class %}page{% endblock %}" style="background-image: url('{% image_url m.rsc[332].medium %}');">
+	    <div class="wrapper">
+   		<header class="branding">
+		<div class="container">
+			<ul class="list-inline">
+				<li class="facebook">
+					<a href="https://www.facebook.com/indonesianredcrescent" title="BSMI on Facebook" class="btn z-btn-social z-icon z-icon-facebook" target="_blank">
+					</a>
+				</li>
+				<li class="twitter">
+					<a href="https://twitter.com/DPN_BSMI" title="BSMI on Twitter" class="btn z-btn-social z-icon z-icon-twitter" target="_blank">
+					</a>
+				</li>
+				<li class="google-plus">
+					<a href="https://plus.google.com/u/0/+BulanSabitMerahIndonesiaBSMI/about" title="BSMI on Google-Plus" class="btn z-btn-social z-icon z-icon-google-plus" target="_blank">
+					</a>
+				</li>
+				<li class="youtube">
+					<a href="https://www.youtube.com/user/indonesiaredcrescent/" title="BSMI on YouTube" class="btn z-btn-social z-icon fa fa-youtube-play" target="_blank">		
+					</a>
+				</li>
+				<li class="instagram">
+					<a href="https://instagram.com/mabesbsmi/" title="BSMI on Instagram" class="btn z-btn-social z-icon z-icon-instagram" target="_blank">
+					</a>
+				</li>
+			</ul>
+		</div> 
+{% media m.rsc[330].medium width=size.width|default:width height=size.height|default:height crop=crop class="header-img" link=link alt=m.rsc[330].title %}
+		<div class="navbar navbar-inverse navbar-fixed-top">
+
+			<div class="container">
+				<div class="navbar-header">
+					{# <span>{{ m.config.site.subtitle.value }}</span> #}
+				</div>
+				{% menu id=id %}
+			</div>
+		</div>
+
+  					<div id="hero-wrapper">
+                                        	{% block carousel %}{% endblock %}
+					</div>
+		<!-- end navbar -->
+  		</header>
+		<div class="container">
+
+			<div class="row">
+				{% block content_area %}
+					{% block chapeau %}{% endblock %}
+					<div class="col-lg-8 col-md-8">
+						{% block content %}
+							<!-- The default content goes here. -->
+						{% endblock %}
+					</div>
+
+					<div id="sidebar" class="col-lg-4 col-md-4">
+						{% block sidebar %}
+							{% include "_sidebar.tpl" %}
+						{% endblock %}
+					</div>
+
+				{% endblock %}
+
+			</div>
+
+			<div class="row">
+				<div class="col-lg-12 col-md-12 clearfix" id="footer">
+					<div class="pull-right">
+						<p class="footer-blog-title">{% include "_powered_by_zotonic.tpl" %}</p>
+					</div>
+					{% menu id=id menu_id='footer_menu' %}
+				</div>
+				<div style="display: block;" class="back-to-top">
+					<a id="backToTopBtn" href="#branding" class="btn z-btn-social fa fa-chevron-up"></a>
+				</div>
+			</div>
+		</div>
+	    </div>
+		{% include "_js_include_jquery.tpl" %}
+		{% lib
+			"bootstrap/js/bootstrap.min.js"
+			"js/modules/ubf.js"
+			"js/apps/zotonic-1.0.js"
+			"js/apps/z.widgetmanager.js"
+            "js/modules/ubf.js"
+			"js/modules/livevalidation-1.3.js"
+			"js/modules/z.inputoverlay.js"
+			"js/modules/z.dialog.js"
+			"js/modules/jquery.loadmask.js"
+			"js/z.superfish.js"
+		%}
+
+		{% block _js_include_extra %}{% endblock %}
+
+		<script type="text/javascript">
+			$(function() { $.widgetManager(); });
+		</script>
+
+		<script type="text/javascript">
+$('#backToTopBtn').click(function(){
+        $('html,body').animate({scrollTop:0},'slow');return false;
+    });
+		</script>
+
+		<script>
+$(window).scroll(function() {
+    var height = $(window).scrollTop();
+
+    if(height  > 423) {
+$(".back-to-top").css("opacity", 1); 
+    } else {
+$(".back-to-top").css("opacity", 0); 
+    }
+});
+		</script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('.carousel').carousel({
+      interval: 5000
+    })
+  });
+</script>
+
+		{% script %}
+
+		{% all include "_html_body.tpl" %}
+	</body>
+</html>

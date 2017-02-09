@@ -1,0 +1,7 @@
+127.0.0.1 - - [03/Oct/2016:09:54:25 +0700] "GET /id/admin/predicate HTTP/1.1" 200 31368 "http://bsmi.dev:8000/id/admin/edit/300" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0" 431105569
+127.0.0.1 - - [03/Oct/2016:09:54:27 +0700] "GET /id/admin/category HTTP/1.1" 200 59807 "http://bsmi.dev:8000/id/admin/edit/300" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0" 389815290
+127.0.0.1 - - [03/Oct/2016:09:54:27 +0700] "POST /beacon HTTP/1.1" 204 0 "http://bsmi.dev:8000/id/admin/edit/300" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0" 477760378
+127.0.0.1 - - [03/Oct/2016:09:54:27 +0700] "POST /postback HTTP/1.1" 200 94 "http://bsmi.dev:8000/id/admin/predicate" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0" 731161390
+127.0.0.1 - - [03/Oct/2016:09:54:28 +0700] "POST /postback HTTP/1.1" 200 94 "http://bsmi.dev:8000/id/admin/category" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0" 456431649
+127.0.0.1 - - [03/Oct/2016:09:54:28 +0700] "GET /websocket HTTP/1.1" 101 0 "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0" 978520840
+127.0.0.1 - - [03/Oct/2016:09:54:28 +0700] "GET /websocket HTTP/1.1" 101 0 "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0" 5481467

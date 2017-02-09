@@ -1,0 +1,2 @@
+127.0.0.1 - - [14/Oct/2016:09:04:13 +0700] "POST /beacon HTTP/1.1" 204 0 "http://test.dev:8000/en/admin/category" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0" 697349805
+127.0.0.1 - - [14/Oct/2016:09:04:13 +0700] "POST /beacon HTTP/1.1" 204 0 "http://bsmi.dev:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0" 252912905

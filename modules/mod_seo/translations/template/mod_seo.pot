@@ -1,0 +1,121 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# NB: Consider using poEdit <http://poedit.sourceforge.net>
+#
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ./modules/mod_seo/templates/admin_seo.tpl:43 
+msgid ""
+"Add a noindex, nofollow element to all pages."
+msgstr ""
+
+#: ./modules/mod_seo/templates/admin_seo.tpl:87 
+msgid ""
+"Bing Webmaster"
+msgstr ""
+
+#: ./modules/mod_seo/templates/admin_seo.tpl:83 
+msgid ""
+"Bing Webmaster validation id"
+msgstr ""
+
+#: ./modules/mod_seo/templates/admin_seo.tpl:72 
+msgid ""
+"Copy the value of the content attribute in the meta tag provided by Google."
+msgstr ""
+
+#: ./modules/mod_seo/templates/admin_seo.tpl:32 
+msgid ""
+"Description"
+msgstr ""
+
+#: ./modules/mod_seo/templates/admin_seo.tpl:36 
+msgid ""
+"Description to include on every page"
+msgstr ""
+
+#: ./modules/mod_seo/templates/admin_seo.tpl:72 ./modules/mod_seo/templates/admin_seo.tpl:87 
+msgid ""
+"Enter here the verification code for"
+msgstr ""
+
+#: ./modules/mod_seo/templates/admin_seo.tpl:45 
+msgid ""
+"Exclude this site from search engines"
+msgstr ""
+
+#: ./modules/mod_seo/templates/admin_seo.tpl:19 
+msgid ""
+"General SEO Optimization"
+msgstr ""
+
+#: ./modules/mod_seo/templates/admin_seo.tpl:57 
+msgid ""
+"Google Analytics tracking id"
+msgstr ""
+
+#: ./modules/mod_seo/templates/admin_seo.tpl:68 ./modules/mod_seo/templates/admin_seo.tpl:72 
+msgid ""
+"Google Webmaster Tools"
+msgstr ""
+
+#: ./modules/mod_seo/templates/admin_seo.tpl:9 
+msgid ""
+"Here you find settings to optimize the indexing of your site by search "
+"engines."
+msgstr ""
+
+#: ./modules/mod_seo/templates/admin_seo.tpl:22 
+msgid ""
+"Keywords"
+msgstr ""
+
+#: ./modules/mod_seo/templates/admin_seo.tpl:26 
+msgid ""
+"Keywords to include on every page. Separate keywords with a \",\""
+msgstr ""
+
+#: ./modules/mod_seo/mod_seo.erl:42 
+msgid ""
+"SEO"
+msgstr ""
+
+#: ./modules/mod_seo/templates/admin_seo.tpl:101 
+msgid ""
+"Save SEO settings"
+msgstr ""
+
+#: ./modules/mod_seo/templates/admin_seo.tpl:3 ./modules/mod_seo/templates/admin_seo.tpl:8 
+msgid ""
+"Search Engine Optimization"
+msgstr ""
+
+#: ./modules/mod_seo/templates/admin_seo.tpl:62 
+msgid ""
+"Where can I find my tracking script?"
+msgstr ""
+
+#: ./modules/mod_seo/templates/admin_seo.tpl:88 
+msgid ""
+"You find this id in the content attribute of the meta tag, it has the "
+"format"
+msgstr ""
+
+#: ./modules/mod_seo/templates/admin_seo.tpl:61 
+msgid ""
+"You find this id in the tracking script, it has the format"
+msgstr ""
