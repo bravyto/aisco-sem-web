@@ -1,4 +1,0 @@
-127.0.0.1 - - [27/Aug/2016:10:19:20 +0700] "GET / HTTP/1.1" 200 10625 "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0" 160750846
-127.0.0.1 - - [27/Aug/2016:10:19:21 +0700] "GET /lib/css/z.icons/fonts/icomoon.woff?v=1 HTTP/1.1" 200 5676 "http://bsmi.dev:8000/lib/bootstrap/css/bootstrap.min~bootstrap-theme.min~/css/jquery.loadmask~z-menu~project~z.icons~363802891.css" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0" 697724515
-127.0.0.1 - - [27/Aug/2016:10:19:21 +0700] "GET /favicon.ico HTTP/1.1" 200 39668 "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0" 960596500
-127.0.0.1 - - [27/Aug/2016:10:19:21 +0700] "GET /websocket HTTP/1.1" 101 0 "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0" 635292242

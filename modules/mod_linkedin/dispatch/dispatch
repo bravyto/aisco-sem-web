@@ -1,5 +1,0 @@
-%% -*- mode: erlang -*-
-[
- {linkedin_authorize, ["linkedin", "authorize"], controller_linkedin_authorize, [{ssl,any}]},
- {linkedin_redirect,  ["linkedin", "redirect"],  controller_linkedin_redirect,  [{ssl,any}]}
-].

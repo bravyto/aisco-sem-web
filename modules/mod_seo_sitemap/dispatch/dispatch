@@ -1,4 +1,0 @@
-%% -*- mode: erlang -*-
-[
- {sitemap_xml, ["sitemap.xml"], controller_template, [{template, "sitemap.xml.tpl"}, {content_type, "text/xml"}, {anonymous, true}]}
-].

@@ -1,3 +1,0 @@
-[
-    {rsc_json_ld, ["rdf", id], controller_rdf, []}
-].

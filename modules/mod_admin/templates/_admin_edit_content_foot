@@ -1,4 +1,0 @@
-		</div>
-    {% endwith %}
-</fieldset>
-{% endblock %}
